@@ -20,7 +20,7 @@ export class AwspipelinetestStack extends cdk.Stack {
           "keithryanorourke/awspipelinetest",
           "main"
         ),
-        commands: ["npm ci", "npm run build", "npm cdk synth"],
+        commands: ["npm ci", "npm run build", "npx cdk synth"],
       }),
     });
 
